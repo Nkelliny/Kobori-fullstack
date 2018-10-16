@@ -12,9 +12,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( '#', '_s' ) ); ?>"><?php printf( __( '© 2018 Desenvolvido por %s', '_s' ), 'Kobori Ubiratan' ); ?></a>
+			<a href="<?php echo esc_url( __( '#', ' ' ) ); ?>"><?php printf( __( '© 2018 Desenvolvido por %s', '_s' ), 'Kobori Ubiratan' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', '_s' ), '_s', '<a href="#" rel="designer">Automattic</a>' ); ?>
+			<?php printf( __( 'Theme: ', '_s' ), '_s', '<a href="#" rel="designer">Automattic</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
