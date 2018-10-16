@@ -75,11 +75,11 @@ if ( ! function_exists( 'generate_add_footer_info' ) ) {
 	 * @since 0.1
 	 */
 	function generate_add_footer_info() {
-		$copyright = sprintf( '<span class="copyright">&copy; %1$s %2$s</span> &bull; %4$s <a href="%3$s" itemprop="url">%5$s</a>',
+		$copyright = sprintf( '<span class="copyright">&copy; %1$s %2$s</span> &bull; %4$s <a href="#" itemprop="url">%5$s</a>',
 			date( 'Y' ),
-			get_bloginfo( 'name' ),
+			get_bloginfo( 'Desenvolvido por' ),
 			esc_url( 'https://generatepress.com' ),
-			_x( 'Powered by', 'GeneratePress', 'generatepress' ),
+			_x( '', 'GeneratePress', 'generatepress' ),
 			__( 'GeneratePress', 'generatepress' )
 		);
 
