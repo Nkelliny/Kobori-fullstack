@@ -75,12 +75,12 @@ if ( ! function_exists( 'generate_add_footer_info' ) ) {
 	 * @since 0.1
 	 */
 	function generate_add_footer_info() {
-		$copyright = sprintf( '© 2018 Desenvolvido por </span> &bull; %4$s <a href="#" itemprop="url">%5$s</a>',
+		$copyright = sprintf( '© 2018 Desenvolvido por </span> %4$s <a href="#">%5$s</a>',
 			date( 'Y' ),
 			get_bloginfo( 'name' ),
 			esc_url( 'https://generatepress.com' ),
 			_x( 'Kobori Ubiratan', '', ' ' ),
-			__( '', 'generatepress' )
+			__( '', '' )
 		);
 
 		echo apply_filters( 'generate_copyright', $copyright ); // WPCS: XSS ok.
